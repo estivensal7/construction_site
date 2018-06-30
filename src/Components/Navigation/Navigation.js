@@ -11,6 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -30,13 +31,13 @@ export default class Navigation extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">EMS Construction</NavbarBrand>
+          <NavbarBrand tag={Link} to="/">EMS Construction</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               {/*Home Navigation Link*/}
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink tag={Link} to="/">Home</NavLink>
               </NavItem>
               {/*Interior Services Navigation Dropdown Link*/}
               <UncontrolledDropdown nav inNavbar>
@@ -44,34 +45,34 @@ export default class Navigation extends React.Component {
                   Interior Services
                 </DropdownToggle>
                 <DropdownMenu left>
-                  <DropdownItem href="/design-build-remodeling">
+                  <DropdownItem tag={Link} to="/design-build-remodeling">
                     Design + Build Remodeling Services
                   </DropdownItem>
-                  <DropdownItem href="/kitchen-remodeling">
+                  <DropdownItem tag={Link} to="/kitchen-remodeling">
                     Kitchen Remodeling
                   </DropdownItem>
-                  <DropdownItem href="/bathroom-remodeling">
+                  <DropdownItem tag={Link} to="/bathroom-remodeling">
                     Bathroom Remodeling
                   </DropdownItem>
-                  <DropdownItem href="/custom-cabinets">
+                  <DropdownItem tag={Link} to="/custom-cabinets">
                     Custom Cabinets
                   </DropdownItem>
-                  <DropdownItem href="/wood-working">
+                  <DropdownItem tag={Link} to="/wood-working">
                     Wood Working
                   </DropdownItem>
-                  <DropdownItem href="/painting">
+                  <DropdownItem tag={Link} to="/painting">
                     Painting
                   </DropdownItem>
-                  <DropdownItem href="/room-additions">
+                  <DropdownItem tag={Link} to="/room-additions">
                     Room Additions
                   </DropdownItem>
-                  <DropdownItem href="/residential-construction">
+                  <DropdownItem tag={Link} to="/residential-construction">
                     Residential Construction
                   </DropdownItem>
-                  <DropdownItem href="/commercial-construction">
+                  <DropdownItem tag={Link} to="/commercial-construction">
                     Commercial Construction
                   </DropdownItem>
-                  <DropdownItem href="/general-contractor">
+                  <DropdownItem tag={Link} to="/general-contractor">
                     General Contractor
                   </DropdownItem>
                 </DropdownMenu>
@@ -80,19 +81,19 @@ export default class Navigation extends React.Component {
               {/*Exterior Services Navigation Dropdown Link*/}
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Interior Services
+                  Exterior Services
                 </DropdownToggle>
                 <DropdownMenu left>
-                  <DropdownItem href="/landscaping">
+                  <DropdownItem tag={Link} to="/landscaping">
                     Landscaping
                   </DropdownItem>
-                  <DropdownItem href="/patio-covers">
+                  <DropdownItem tag={Link} to="/patio-covers">
                     Patio Covers
                   </DropdownItem>
-                  <DropdownItem href="/concrete-hardscapes">
+                  <DropdownItem tag={Link} to="/concrete-hardscapes">
                     Concrete and Hardscapes
                   </DropdownItem>
-                  <DropdownItem href="/outdoor-living-spaces">
+                  <DropdownItem tag={Link} to="/outdoor-living-spaces">
                     Outdoor Living Spaces
                   </DropdownItem>
                 </DropdownMenu>
@@ -100,7 +101,7 @@ export default class Navigation extends React.Component {
 
               {/*About Navigation Link*/}
               <NavItem>
-                <NavLink href="/about">About</NavLink>
+                <NavLink tag={Link} to="/about">About</NavLink>
               </NavItem>
               
               {/*Photo Gallery Navigation Link*/}
@@ -109,10 +110,10 @@ export default class Navigation extends React.Component {
                   Photo Gallery
                 </DropdownToggle>
                 <DropdownMenu left>
-                  <DropdownItem href="/interior-photo-gallery">
+                  <DropdownItem tag={Link} to="/interior-photo-gallery">
                     Interior Design
                   </DropdownItem>
-                  <DropdownItem href="/exterior-photo-gallery">
+                  <DropdownItem tag={Link} to="/exterior-photo-gallery">
                     Exterior Design
                   </DropdownItem>
                   </DropdownMenu>
@@ -120,7 +121,7 @@ export default class Navigation extends React.Component {
 
               {/*Contact Navigation Link*/}
               <NavItem>
-                <NavLink href="/contact">Contact</NavLink>
+                <NavLink tag={Link} to="/contact">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
