@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navigation from './Components/Navigation/Navigation';
 import Main from './Components/Main/Main.js';
+import Footer from './Components/Footer/Footer.js'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Navigation />
         <Main />
+        <Footer />
       </div>
     );
   }
