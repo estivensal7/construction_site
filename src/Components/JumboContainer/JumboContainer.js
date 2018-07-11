@@ -19,10 +19,12 @@ class JumboContainer extends Component {
         this.state = {
             services: [
                 {
-                    type: 'Interior Services'
+                    type: 'Interior Services',
+                    link: '/interior-photo-gallery'
                 },
                 {
-                    type: 'Exterior Services'
+                    type: 'Exterior Services',
+                    link: '/exterior-photo-gallery'
                 }
             ]
         }

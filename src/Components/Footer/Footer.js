@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Button, CardHeader, CardFooter, CardBlock,
 CardTitle, CardText, Row, Col } from 'reactstrap';
 
+// Creating footer component
 const Footer = (props) => {
   return (
     <div>
@@ -19,13 +20,13 @@ const Footer = (props) => {
                         350 5th Ave, New York, NY 10118
                     </CardText>
                 </Col>
+                {/* buttons to link in footer to other pages in application */}
                 <Col md={3}>
-                    <Button outline color='secondary' size='sm'>Home</Button>
-                    <Button outline color='secondary' size='sm'>Interior</Button>
-                    <Button outline color='secondary' size='sm'>Exterior</Button>
-                    <Button outline color='secondary' size='sm'>About</Button>
-                    <Button outline color='secondary' size='sm'>Photo Gallery</Button>
-                    <Button outline color='secondary' size='sm'>Contact</Button>
+                    <Button outline color='secondary' size='sm' tag='a' href='/'>Home</Button>
+                    <Button outline color='secondary' size='sm' tag='a' href='/interior-photo-gallery'>Interior</Button>
+                    <Button outline color='secondary' size='sm' tag='a' href='/exterior-photo-gallery'>Exterior</Button>
+                    <Button outline color='secondary' size='sm' tag='a' href='/about'>About</Button>
+                    <Button outline color='secondary' size='sm' tag='a' href='/contact'>Contact</Button>
                 </Col>
             </Row>
             </CardBlock>

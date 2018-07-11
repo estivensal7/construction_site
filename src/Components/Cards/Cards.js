@@ -9,6 +9,7 @@ import { Card,
     Button } from 'reactstrap';
 import './Cards.css';
 
+// creating service cards component
 class Cards extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +22,7 @@ class Cards extends Component {
             <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
             <CardBody>
               <CardTitle>{this.props.services.type}</CardTitle>
-              <Button>Info</Button>
+              <Button tag='a' href={this.props.services.link}>Info</Button>
             </CardBody>
           </Card>
         </CardGroup>
