@@ -20,11 +20,11 @@ class JumboContainer extends Component {
             services: [
                 {
                     type: 'Interior Services',
-                    link: '/interior-photo-gallery'
+                    link: '/interior-services'
                 },
                 {
                     type: 'Exterior Services',
-                    link: '/exterior-photo-gallery'
+                    link: '/exterior-services'
                 }
             ]
         }

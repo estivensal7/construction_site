@@ -1,0 +1,6 @@
+.nav>li>a.active,
+.nav>li>a:hover,
+.nav>li>a:focus {
+   background-color: #dee2e6;
+}
+
