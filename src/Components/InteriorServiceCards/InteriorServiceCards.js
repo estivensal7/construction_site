@@ -9,7 +9,7 @@ import { Card,
     Button } from 'reactstrap';
 
 // creating service cards component
-class ServiceCards extends Component {
+class InteriorServiceCards extends Component {
   constructor(props) {
     super(props);
   }
@@ -17,7 +17,7 @@ class ServiceCards extends Component {
     return (
       <div>
         <CardGroup>
-          <Card className='serviceCards'>
+          <Card className='serviceCards' style={{marginBottom: '1rem'}}>
             <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
             <CardBody>
               <CardTitle>{this.props.services.type}</CardTitle>
@@ -30,4 +30,4 @@ class ServiceCards extends Component {
   };
 };
 
-export default ServiceCards;
+export default InteriorServiceCards;

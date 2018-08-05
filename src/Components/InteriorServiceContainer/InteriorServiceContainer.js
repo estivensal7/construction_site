@@ -11,9 +11,9 @@ import {
     Button,
     Row,
     Col } from 'reactstrap';
-import ServiceCards from '../ServiceCards/ServiceCards.js';
+import InteriorServiceCards from '../InteriorServiceCards/InteriorServiceCards.js';
 
-class ServiceContainer extends Component {
+class InteriorServiceContainer extends Component {
     constructor() {
         super();
         this.state = {
@@ -25,9 +25,7 @@ class ServiceContainer extends Component {
                 {
                     type: 'Kitchen Remodeling',
                     link: '/kitchen-remodeling'
-                }
-            ],
-            services2: [
+                },
                 {
                     type: 'Bathroom Remodeling',
                     link: '/bathroom-remodeling'
@@ -35,9 +33,7 @@ class ServiceContainer extends Component {
                 {
                     type: 'Custom Cabinets',
                     link: '/custom-cabinets'
-                }
-            ],
-            services3: [
+                },
                 {
                     type: 'Wood Working',
                     link: '/wood-working'
@@ -45,9 +41,7 @@ class ServiceContainer extends Component {
                 {
                     type: 'Painting',
                     link: '/painting'
-                }
-            ],
-            services4: [
+                },
                 {
                     type: 'Room Additions',
                     link: '/room-additions'
@@ -55,9 +49,7 @@ class ServiceContainer extends Component {
                 {
                     type: 'Residential Construction',
                     link: '/residential-construction'
-                }
-            ],
-            services5: [
+                },
                 {
                     type: 'Commercial Construction',
                     link: '/commercial-construction'
@@ -72,8 +64,8 @@ class ServiceContainer extends Component {
     render() {
         let servicesCards = this.state.services.map(services => {
             return (
-                <Col md={{size: 3, offset: 2}}>
-                    <ServiceCards services={services} />
+                <Col md={{size: 3}}>
+                    <InteriorServiceCards services={services} />
                 </Col>
             )
         })
@@ -92,4 +84,4 @@ class ServiceContainer extends Component {
     };
 };
 
-export default ServiceContainer;
+export default InteriorServiceContainer;
