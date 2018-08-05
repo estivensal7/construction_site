@@ -17,6 +17,7 @@ import classnames from 'classnames';
 import './Interior.css'
 import { Link } from 'react-router-dom';
 import InteriorSideNav from '../../Components/InteriorSideNav/InteriorSideNav';
+import ServiceContainer from '../../Components/ServiceContainer/ServiceContainer';
 
 export default class DesignBuild extends Component {
   constructor(props) {
@@ -40,7 +41,15 @@ export default class DesignBuild extends Component {
     return ( 
       <div>
         Interior Page.
-        <Row>
+      
+      <ServiceContainer />
+
+
+
+
+
+
+        {/* <Row>
           <Col md={{size: 3, offset: 1}}>
             <InteriorSideNav />
           </Col>
@@ -120,7 +129,7 @@ export default class DesignBuild extends Component {
           </TabPane>
         </TabContent>
         </Col>
-        </Row>
+        </Row> */}
       </div>
     )
   }
