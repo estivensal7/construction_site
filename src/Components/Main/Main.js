@@ -19,8 +19,7 @@ import Patio from '../../Pages/Patio/Patio.js';
 import Residential from '../../Pages/Residential/Residential.js';
 import RoomAdditions from '../../Pages/RoomAdditions/RoomAdditions.js';
 import WoodWorking from '../../Pages/WoodWorking/WoodWorking.js';
-import InteriorPhotos from '../../Pages/InteriorPhotos/InteriorPhotos.js';
-import ExteriorPhotos from '../../Pages/ExteriorPhotos/ExteriorPhotos.js';
+import Gallery from '../../Pages/Gallery/Gallery.js';
 
 {/*Setting up Main Component to render React Routes for every Page/Link*/}
 export default class Main extends Component {
@@ -36,8 +35,7 @@ export default class Main extends Component {
         <Route exact path='/contact' component={Contact}></Route>
         <Route exact path='/general-contractor' component={Contractor}></Route>
         <Route exact path='/design-build-remodeling' component={DesignBuild}></Route>
-        <Route exact path='/exterior-photo-gallery' component={ExteriorPhotos}></Route>
-        <Route exact path='/interior-photo-gallery' component={InteriorPhotos}></Route>
+        <Route exact path='/gallery' component={Gallery}></Route>
         <Route exact path='/kitchen-remodeling' component={Kitchen}></Route>
         <Route exact path='/landscaping' component={Landscaping}></Route>
         <Route exact path='/outdoor-living-spaces' component={OutdoorLiving}></Route>

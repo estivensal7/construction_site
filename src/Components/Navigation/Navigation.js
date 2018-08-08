@@ -105,19 +105,9 @@ export default class Navigation extends React.Component {
               </NavItem>
               
               {/*Photo Gallery Navigation Link*/}
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Photo Gallery
-                </DropdownToggle>
-                <DropdownMenu left>
-                  <DropdownItem tag={Link} to="/interior-photo-gallery">
-                    Interior Design
-                  </DropdownItem>
-                  <DropdownItem tag={Link} to="/exterior-photo-gallery">
-                    Exterior Design
-                  </DropdownItem>
-                  </DropdownMenu>
-              </UncontrolledDropdown>
+              <NavItem>
+                <NavLink tag={Link} to="/gallery">Gallery</NavLink>
+              </NavItem>
 
               {/*Contact Navigation Link*/}
               <NavItem>
