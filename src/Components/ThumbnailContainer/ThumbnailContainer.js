@@ -54,10 +54,10 @@ export default class ThumbnailContainer extends React.Component {
             )
         })
 
-        let categoryButtons = this.state.buttons.map(button => {
+        let categoryButtons = this.state.buttons.map(buttons => {
             return (
-                <FilterButton data-category={button.category}>
-                    {button.category}
+                <FilterButton data-category={buttons.category}>
+                    {buttons.category}
                 </FilterButton>
             )
         })
