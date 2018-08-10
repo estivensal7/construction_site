@@ -1,15 +1,46 @@
-import React from "react";
+import React, { Component } from "react";
+import PropTypes from 'prop-types';
 import { Button } from 'reactstrap';
 
-const FilterButton = props => (
+class FilterButton extends Component {
+    constructor(props) {
+      super(props);
+      
+    }
+    render() {
+      return (
+        <div>
+          <Button 
+              outline 
+              color="secondary"
+              data-category={this.props.buttons.category}
+              style={{marginBottom: "10px"}}
+          >{this.props.buttons.category}
+          </Button>
+        </div>
+      );
+    };
+  };
+  
+  export default FilterButton;
 
-    <Button 
-        outline 
-        color="secondary"
-        data-category={props.buttons}
-    >
-        Text
-    </Button>
+
+
+// class FilterButton extends Component (
+//     constructor(props) {
+//         super(props);
+//     }
+
+//     render() {
+//         return (
+//             <Button 
+//                 outline 
+//                 color="secondary"
+//             >{this.props.buttons.category}
+//             </Button>
+//         )
+//     }
+// }
 
     //   <div className="card">
     //     <div className="img-container">
@@ -32,6 +63,3 @@ const FilterButton = props => (
     //       𝘅
     //     </span>
     //   </div>
-);
-
-export default FilterButton;
