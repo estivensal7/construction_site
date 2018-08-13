@@ -7,7 +7,7 @@ import Cards from '../../Components/Cards/Cards.js';
 export default class Home extends Component {
     render() {
       return (
-        <div> Home Page.
+        <div style={{marginBottom: '20px'}}> Home Page.
           <HeaderCarousel />
           <InfoPanel />
           <JumboContainer>

@@ -44,7 +44,7 @@ toggleInfo() {
 
 render() {
   return (
-      <div> ConcreteHardscapes Page.
+      <div style={{marginBottom: '20px'}}> ConcreteHardscapes Page.
       
       {/* Interior side Navigation component and Card Img with info of current page */}
       <Row>

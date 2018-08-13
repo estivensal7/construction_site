@@ -6,7 +6,7 @@ CardTitle, CardText, Row, Col } from 'reactstrap';
 const Footer = (props) => {
   return (
     <div>
-        <Card>
+        <Card >
             <CardHeader tag="h3">EMS Construction</CardHeader>
             <CardBlock>
             <CardText>Call today for a FREE Consultation (222)-222-2222</CardText>
@@ -23,8 +23,8 @@ const Footer = (props) => {
                 {/* buttons to link in footer to other pages in application */}
                 <Col md={3}>
                     <Button outline color='secondary' size='sm' tag='a' href='/'>Home</Button>
-                    <Button outline color='secondary' size='sm' tag='a' href='/interior-photo-gallery'>Interior</Button>
-                    <Button outline color='secondary' size='sm' tag='a' href='/exterior-photo-gallery'>Exterior</Button>
+                    <Button outline color='secondary' size='sm' tag='a' href='/interior-services'>Interior</Button>
+                    <Button outline color='secondary' size='sm' tag='a' href='/exterior-services'>Exterior</Button>
                     <Button outline color='secondary' size='sm' tag='a' href='/about'>About</Button>
                     <Button outline color='secondary' size='sm' tag='a' href='/contact'>Contact</Button>
                 </Col>

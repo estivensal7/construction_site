@@ -9,6 +9,8 @@ class FilterButton extends Component {
 			}
 		}
 
+		// setting handleClick function to set the state of  'newCategory' to the value of the button's 'buttonCategory'
+		//utilized callback functions in order to control asynchronous rendering
 		handleClick() {
 			this.setState(
 				() => ({ newCategory: this.props.buttons.buttonCategory }),
@@ -24,7 +26,6 @@ class FilterButton extends Component {
 					buttonCategory={this.props.buttons.buttonCategory}
 					style={{marginBottom: "10px"}}
 					onClick={this.handleClick.bind(this)}
-					// onClick={() => this.handleClick()}
 				>{this.props.buttons.buttonCategory}
 				</Button>
 			</div>

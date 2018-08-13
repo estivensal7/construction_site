@@ -44,7 +44,7 @@ toggleInfo() {
 
 render() {
   return (
-      <div> Outdoor Living Page.
+      <div style={{marginBottom: '20px'}}> Outdoor Living Page.
       
       {/* Interior side Navigation component and Card Img with info of current page */}
       <Row>

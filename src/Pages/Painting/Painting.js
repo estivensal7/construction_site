@@ -44,7 +44,7 @@ toggleInfo() {
 
 render() {
   return (
-      <div> Painting
+      <div style={{marginBottom: '20px'}}> Painting
       
       {/* Interior side Navigation component and Card Img with info of current page */}
       <Row>

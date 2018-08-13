@@ -17,7 +17,7 @@ class ThumbnailCards extends Component {
         <CardGroup>
           <Card 
             className='thumbnailCards' 
-            style={{marginBottom: '1rem'}} 
+            style={{marginBottom: '3rem', marginTop: '3rem'}} 
             data-category={this.props.thumbnails.category}
           >
             <CardImg top width="100%" src={this.props.thumbnails.url} alt="Card image cap" />

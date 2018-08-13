@@ -44,7 +44,7 @@ toggleInfo() {
 
 render() {
   return (
-      <div> Wood Working
+      <div style={{marginBottom: '20px'}}> Wood Working
       
       {/* Interior side Navigation component and Card Img with info of current page */}
       <Row>

@@ -44,7 +44,7 @@ toggleInfo() {
 
 render() {
   return (
-      <div> Kitchen Page
+      <div style={{marginBottom: '20px'}}> Kitchen Page
       
       {/* Interior side Navigation component and Card Img with info of current page */}
       <Row>
