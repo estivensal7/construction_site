@@ -1,14 +1,14 @@
 [
-    {"category": "All"}, 
-    {"category": "Remodeling Services"}, 
-    {"category": "Kitchen Remodeling"},
-    {"category": "Bathroom Remodeling"},
-    {"category": "Custom Cabinets"},
-    {"category": "Wood Working"},
-    {"category": "Room Additions"},
-    {"category": "Painting"},
-    {"category": "Residential Construction"},
-    {"category": "Commercial Construction"},
-    {"category": "General Contractor"},
-    {"category": "Patios"}
+    {"buttonCategory": "Remodeling Services"}, 
+    {"buttonCategory": "Kitchen Remodeling"},
+    {"buttonCategory": "Bathroom Remodeling"},
+    {"buttonCategory": "Custom Cabinets"},
+    {"buttonCategory": "Wood Working"},
+    {"buttonCategory": "Room Additions"},
+    {"buttonCategory": "Painting"},
+    {"buttonCategory": "Residential Construction"},
+    {"buttonCategory": "Commercial Construction"},
+    {"buttonCategory": "General Contractor"},
+    {"buttonCategory": "Patios"},
+    {"buttonCategory": "Landscaping"}
 ]

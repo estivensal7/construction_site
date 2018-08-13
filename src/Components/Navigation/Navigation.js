@@ -44,7 +44,7 @@ export default class Navigation extends React.Component {
                 <DropdownToggle nav caret>
                   Interior Services
                 </DropdownToggle>
-                <DropdownMenu left>
+                <DropdownMenu left >
                   <DropdownItem tag={Link} to="/design-build-remodeling">
                     Design + Build Remodeling Services
                   </DropdownItem>

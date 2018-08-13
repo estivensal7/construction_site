@@ -1,3 +1,4 @@
+// {/*Setting up Main Component to render React Routes for every Page/Link*/}
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from '../../Pages/Home/Home.js';
@@ -21,7 +22,6 @@ import RoomAdditions from '../../Pages/RoomAdditions/RoomAdditions.js';
 import WoodWorking from '../../Pages/WoodWorking/WoodWorking.js';
 import Gallery from '../../Pages/Gallery/Gallery.js';
 
-{/*Setting up Main Component to render React Routes for every Page/Link*/}
 export default class Main extends Component {
     render() {
       return (

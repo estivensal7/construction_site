@@ -1,20 +1,4 @@
 import React, { Component } from 'react';
-import { 
-  TabContent, 
-  TabPane, 
-  Nav, 
-  NavItem, 
-  NavLink, 
-  Card,
-  CardImg, 
-  Button, 
-  CardTitle, 
-  CardText, 
-  Row, 
-  Col 
-} from 'reactstrap';
-import classnames from 'classnames';
-import { Link } from 'react-router-dom';
 import ExteriorServiceContainer from '../../Components/ExteriorServiceContainer/ExteriorServiceContainer';
 
 export default class Exterior extends Component {

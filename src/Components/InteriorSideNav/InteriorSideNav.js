@@ -1,18 +1,9 @@
 import React from 'react';
 import {
-    TabContent, 
-    TabPane, 
     Nav, 
     NavItem, 
-    NavLink, 
-    Card,
-    CardImg, 
-    Button, 
-    CardTitle, 
-    CardText, 
-    Row, 
-    Col  } from 'reactstrap';
-import classnames from 'classnames';
+    NavLink
+} from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 export default class InteriorSideNav extends React.Component {
