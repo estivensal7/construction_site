@@ -1,0 +1,45 @@
+@media (min-width: 376px) and (max-width: 450px) {
+    .services-jumbotron {
+        height: 120vh !important;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 500px) {
+    .services-jumbotron {
+        height: 120vh !important;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 576px) {
+    .services-jumbotron {
+        height: 140vh !important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .services-jumbotron {
+        height: 65vh !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .services-jumbotron {
+        height: 75vh !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .services-jumbotron {
+        height: 58vh !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .services-jumbotron {
+        height: 60vh !important;
+    }
+}
+
+.services-jumbotron {
+    margin-bottom: 0px !important;
+}

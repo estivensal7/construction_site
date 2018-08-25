@@ -1,10 +1,11 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
+import './InfoPanel.css'
 
 const InfoPanel = (props) => {
   return (
     <div>
-      <Jumbotron fluid>
+      <Jumbotron fluid className="info-panel-jumbotron">
         <Container fluid>
           <h1 className="display-3">Fluid jumbotron</h1>
           <p className="lead">

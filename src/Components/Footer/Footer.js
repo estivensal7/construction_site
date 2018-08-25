@@ -1,11 +1,18 @@
 import React from 'react';
-import { Card, Button, CardHeader, CardFooter, CardBlock,
-CardTitle, CardText, Row, Col } from 'reactstrap';
+import { 
+    Card, 
+    Button, 
+    CardHeader, 
+    CardFooter, 
+    CardBlock,
+    CardText, 
+    Row, 
+    Col } from 'reactstrap';
 
 // Creating footer component
 const Footer = (props) => {
   return (
-    <div>
+    <div className="sticky-footer">
         <Card >
             <CardHeader tag="h3">EMS Construction</CardHeader>
             <CardBlock>
