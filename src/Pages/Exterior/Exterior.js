@@ -22,8 +22,6 @@ export default class Exterior extends Component {
   render() {
     return ( 
       <div>
-        Exterior Page.
-      
           <ExteriorServiceContainer />
       </div>
     )

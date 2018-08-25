@@ -23,8 +23,6 @@ export default class DesignBuild extends Component {
   render() {
     return ( 
       <div>
-        Interior Page.
-      
           <InteriorServiceContainer />
       </div>
     )

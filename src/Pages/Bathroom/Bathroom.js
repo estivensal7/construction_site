@@ -44,8 +44,8 @@ toggleInfo() {
 
 render() {
   return (
-      <div style={{marginBottom: '20px'}}> Bathroom Remodeling
-      
+      <div style={{marginBottom: '20px'}}> 
+
       {/* Interior side Navigation component and Card Img with info of current page */}
       <Row>
         <Col md={{size: 3, offset: 1}}>

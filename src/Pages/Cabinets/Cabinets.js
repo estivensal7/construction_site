@@ -44,7 +44,7 @@ toggleInfo() {
 
 render() {
   return (
-      <div style={{marginBottom: '20px'}}> Custom Cabinets
+      <div style={{marginBottom: '20px'}}>
       
       {/* Interior side Navigation component and Card Img with info of current page */}
       <Row>
