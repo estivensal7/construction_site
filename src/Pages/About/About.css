@@ -27,3 +27,73 @@
       opacity: 1;
     }
   }
+
+@media (min-width: 376px) and (max-width: 450px) {
+    .aboutContainer {
+        height: 100vh !important;
+    }
+    .aboutJumbo {
+      width: 100% !important;
+      height: 100vh !important;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 500px) {
+    .aboutContainer {
+        height: 100vh !important;
+    }
+    .aboutJumbo {
+      width: 100% !important;
+      height: 100vh !important;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 576px) {
+    .aboutContainer {
+        height: 100vh !important;
+    }
+    .aboutJumbo {
+      width: 100% !important;
+      height: 100vh !important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .aboutContainer {
+        height: 100vh !important;
+    }
+    .aboutJumbo {
+      width: 100% !important;
+      height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .aboutContainer {
+        height: 100vh !important;
+    }
+    .aboutJumbo {
+      width: 100% !important;
+      height: 100vh !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .aboutContainer {
+        height: 100vh !important;
+    }
+    .aboutJumbo {
+      width: 100% !important;
+      height: 100vh !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .aboutContainer {
+        height: 100vh !important;
+    }
+    .aboutJumbo {
+      width: 100% !important;
+      height: 100vh !important;
+    }
+}
