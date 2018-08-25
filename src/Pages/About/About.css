@@ -1,19 +1,19 @@
-.jumbotron-container {
+.aboutContainer {
   width: 100%;
-  height: 770px;
+  height: 95vh;
 }
 
-.jumbotron {
+.aboutJumbo {
   width: 100%;
-  height: 770px;
+  height: 95vh;
 }
 
-.tab-pane {
+.aboutTabPane {
     position: relative;
     display: none;
     opacity: 0;
   }
-  .tab-pane.active {
+  .aboutTabPane.active {
     display: flex;
     animation: fade-and-slide-in 2000ms ease-in;
     opacity: 1;
