@@ -2,16 +2,10 @@ import React, {Component} from 'react';
 import { 
     Jumbotron, 
     Container,
-    Card, 
-    CardImg, 
-    CardText, 
-    CardBody,
-    CardTitle, 
-    CardSubtitle, 
-    Button,
     Row,
     Col } from 'reactstrap';
 import ExteriorServiceCards from '../ExteriorServiceCards/ExteriorServiceCards.js';
+import './ExteriorServiceContainer.css'
 
 class ExteriorServiceContainer extends Component {
     constructor() {
@@ -46,8 +40,8 @@ class ExteriorServiceContainer extends Component {
             )
         })
         return (
-            <div>
-            <Jumbotron fluid>
+            <div className="exterior-container">
+            <Jumbotron fluid className="exterior-services-jumbotron">
                 <Container fluid>
                 <h1 className="display-4">Exterior Services</h1>
                     <Row>

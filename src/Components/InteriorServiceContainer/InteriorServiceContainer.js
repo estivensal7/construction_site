@@ -12,6 +12,7 @@ import {
     Row,
     Col } from 'reactstrap';
 import InteriorServiceCards from '../InteriorServiceCards/InteriorServiceCards.js';
+import './InteriorServiceContainer.css';
 
 class InteriorServiceContainer extends Component {
     constructor() {
@@ -64,14 +65,14 @@ class InteriorServiceContainer extends Component {
     render() {
         let servicesCards = this.state.services.map(services => {
             return (
-                <Col md={{size: 3}}>
+                <Col sm={{size: 6}} md={{size: 3}}>
                     <InteriorServiceCards services={services} />
                 </Col>
             )
         })
         return (
-            <div>
-            <Jumbotron fluid>
+            <div className="interior-container">
+            <Jumbotron fluid className="interior-services-jumbotron">
                 <Container fluid>
                 <h1 className="display-4">Interior Services</h1>
                     <Row>

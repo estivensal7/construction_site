@@ -28,7 +28,7 @@ const Footer = (props) => {
                     </CardText>
                 </Col>
                 {/* buttons to link in footer to other pages in application */}
-                <Col md={3}>
+                <Col sm={12} md={3}>
                     <Button outline color='secondary' size='sm' tag='a' href='/'>Home</Button>
                     <Button outline color='secondary' size='sm' tag='a' href='/interior-services'>Interior</Button>
                     <Button outline color='secondary' size='sm' tag='a' href='/exterior-services'>Exterior</Button>
