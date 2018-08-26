@@ -1,8 +1,13 @@
 .contactContainer {
-    width: 100%;
+    width: 90%;
     height: 95vh;
+    margin: auto;
 }
 
 .jumbotron {
     height: 70vh;
+}
+
+.col {
+    padding-right: 0%;
 }

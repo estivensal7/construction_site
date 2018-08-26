@@ -45,24 +45,29 @@ export default class ThumbnailContainer extends React.Component {
         // Both 'buttons' and 'thumbnails' have been declared in the state. 
         return (
             <div className="thumbnailContainer">
-                <Row>
-                    {this.state.buttons.map(buttons => {
-                        return (
-                            <Col md={3}>
-                                <FilterButton buttons={buttons} handleClick={this.handleClick.bind(this)} /> 
-                            </Col>
-                        )
-                    })}
-                </Row>
-                <Row>
-                    {filteredThumbnails.map(thumbnails => {
-                        return (
-                            <Col md={{size: 3}}>
-                                <ThumbnailCards thumbnails={thumbnails}/>
-                            </Col>
-                        )
-                    })}
-                </Row>
+                <div className="filter-buttons-container">
+                    <Row>
+                        {this.state.buttons.map(buttons => {
+                            return (
+                                <Col xs={12} sm={6} md={4}>
+                                    <FilterButton buttons={buttons} handleClick={this.handleClick.bind(this)} /> 
+                                </Col>
+                            )
+                        })}
+                    </Row>
+                </div>
+                
+                <div className="thumbnails-row-container">
+                    <Row>
+                        {filteredThumbnails.map(thumbnails => {
+                            return (
+                                <Col md={{size: 3}}>
+                                    <ThumbnailCards thumbnails={thumbnails}/>
+                                </Col>
+                            )
+                        })}
+                    </Row>
+                </div>
             </div>
             );
         }

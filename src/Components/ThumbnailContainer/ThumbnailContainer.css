@@ -1,0 +1,30 @@
+.thumbnailContainer {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.filter-buttons-container {
+    width: 95% !important;
+    margin: auto !important;
+}
+
+.thumbnails-row-container {
+    width: 95% !important;
+    margin: auto !important;
+}
+
+.col-md-3 {
+    padding-right: 0% !important;
+}
+
+@media (min-width: 767px) {
+    .thumbnailContainer {
+        height: 100% !important;
+    }
+}
+
+@media (max-width: 766px) {
+    .thumbnailContainer {
+        height: 100% !important;
+    }
+}

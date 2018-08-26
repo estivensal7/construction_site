@@ -3,8 +3,7 @@ import { Card,
     CardImg,  
     CardBody,
     CardTitle, 
-    CardGroup, 
-    Button } from 'reactstrap';
+    CardGroup } from 'reactstrap';
 
 // creating service cards component
 class ThumbnailCards extends Component {

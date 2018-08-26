@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button } from 'reactstrap';
+import './FilterButton.css';
 
 class FilterButton extends Component {
     constructor(props) {
